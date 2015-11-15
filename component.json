@@ -1,0 +1,20 @@
+{
+  "name": "appa-sariicon",
+  "repo": "sariina/appa-sariicon",
+  "description": "Appa Sariicon",
+  "version": "2.0.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "SIL, MIT",
+  "styles": [
+    "appa-sariicon.min.css"
+  ],
+  "fonts": [
+    "fonts/Appa-Sariicon.eot",
+    "fonts/Appa-Sariicon.svg",
+    "fonts/Appa-Sariicon.ttf",
+    "fonts/Appa-Sariicon.woff",
+    "fonts/Appa-Sariicon.woff2"
+  ]
+}

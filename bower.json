@@ -1,0 +1,22 @@
+{
+  "name": "appa-sariicon",
+  "description": "Appa Sariicon",
+  "keywords": [],
+  "homepage": "http://http://code.sariina.com/appa-sariicon/",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": ["OFL-1.1", "MIT"],
+  "main": [
+    "appa-sariicon-embeded.css",
+    "appa-sariicon.min.css"
+  ],
+  "ignore": [
+    "*/.*",
+    "*.json",
+    "src",
+    "*.yml",
+    "Gemfile",
+    "Gemfile.lock",
+    "*.md"
+  ]
+}
