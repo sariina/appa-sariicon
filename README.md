@@ -29,4 +29,5 @@ There are two kinds of CSS files in this repo:
 use "**i**" tags and add classes with "sar sar-[name]" pattern:
 
 	<i class="sar sar-env"></i>
-	<i class="sar sar-env-open"></i>
+	<i class="sar sar-shortnumber-add"></i>
+	<i class="sar sar-text-pro"></i>
