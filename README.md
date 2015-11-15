@@ -14,7 +14,6 @@ http://scripts.sil.org/OFL
 - Appa Sariicons CSS files are licensed under the MIT License:
 http://opensource.org/licenses/mit-license.html
 
-<<<<<<< HEAD
 # Changelog
 - 2.0 Redesigned from ground up in 16*16 square base
 - 1.0 Initial release
