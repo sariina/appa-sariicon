@@ -29,6 +29,6 @@ There are two kinds of CSS files in this repo:
 - appa-sariicons-embeded : Which has Appa Sariicons embedded in the CSS in base64
 - appa-sariicons.min/appa-sariicons : The normal kinf of including webfonts with eot,svg,ttf and woff files
 
-use it inside the <i> tag and write "sar sar-ICON_NAME", like:
+use it inside the *i* tag and write "sar sar-ICON_NAME", like:
 
 	<i class="sar sar-env"></i>
