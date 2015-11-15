@@ -18,11 +18,6 @@ http://opensource.org/licenses/mit-license.html
 - 2.0 Redesigned from ground up in 16*16 square base
 - 1.0 Initial release
 
-#Author
-
-Twitter: http://twitter.com/davegandy
-GitHub: https://github.com/davegandy
-
 #Usage
 
 There are two kinds of CSS files in this repo:
