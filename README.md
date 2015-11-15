@@ -22,8 +22,8 @@ http://opensource.org/licenses/mit-license.html
 #Usage
 
 There are two kinds of CSS files in this repo:
-- **appa-sariicon-embeded** Which has Appa Sariicon embedded inside the CSS in base64
-- **appa-sariicon.min** or **appa-sariicon** This is a normal @font-face with eot,svg,ttf and woff files
+- **appa-sariicon-embeded** which has "Appa Sariicon" embedded inside the CSS in base64
+- **appa-sariicon.min** or **appa-sariicon** which is a normal @font-face with eot,svg,ttf and woff files
 
 use "**i**" tags and add classes with "sar sar-[name]" pattern:
 
