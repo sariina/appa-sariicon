@@ -8,7 +8,7 @@
 # Appa Sariicon
 Appa Sariicon is a collection of 147 webfont icons that are carefully designed by [Sariina](http://sariina.com) to use in complex Web Applications UIs.
 
-[**Demo**](http://code.sariina.com/appa-sariicon)
+[**View Demo in Here**](http://code.sariina.com/appa-sariicon)
 
 # License
 - The Appa Sariicon font is licensed under the SIL OFL 1.1:
