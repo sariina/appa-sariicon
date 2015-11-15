@@ -2,9 +2,8 @@
 <h1>آپا ساریکان</h1>
 برای ساخت وب‌اپلیکیشن <a href="http://payamsms.com">پیام‌اس‌ام‌اس</a>، نیاز به استفاده از نشانه‌های بصری بود و به طبع، به دلیل پیچیدگی و اختصاصی بودن مفاهیم چنین نرم‌افزاری، یافتن نشانه‌های مناسب از بین ابزارهای آماده سخت و زمان‌بر بود.
 تصمیم گرفتیم تا وب‌فونت آیکون‌هایی اختصاصی برای این محصول طراحی و تولید کنیم.
-<br />
-<strong dir="ltr">http://code.sariina.com/appa-sariicon/</strong>
 </div>
+<strong dir="ltr">http://code.sariina.com/appa-sariicon/</strong>
 
 # Appa Sariicon
 Appa Sariicon is a collection of 147 webfont icons that are carefully designed by [Sariina](http://sariina.com) to use in complex Web Applications UIs.
