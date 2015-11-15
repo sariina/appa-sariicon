@@ -1,29 +1,30 @@
 /*
- *  Appa Sariicons 2.0.0 by @artlesshand - http://sariina.com - @sariinaco
- *  Appa Sariicons is fully open source and is GPL friendly. Use it for commercial projects, open source projects, or anything else.
+ *  Appa Sariicon 2.0.0 by @artlesshand - http://sariina.com - @sariinaco
+ *  Appa Sariicon is fully open source and is GPL friendly. Use it for commercial projects, open source projects, or anything else.
  *
  */
 
 @font-face {
-	font-family: 'Appa-Sariicons';
-	src: url('fonts/Appa-Sariicons.eot');
+	font-family: 'Appa-Sariicon';
+	src: url('fonts/Appa-Sariicon.eot');
 }
 
 @font-face {
-	font-family: 'Appa-Sariicons';
-	src: url('fonts/Appa-Sariicons.eot');
-	src: url('fonts/Appa-Sariicons.eot?#iefix') format('eot'),
-	url('fonts/Appa-Sariicons.woff') format('woff'),
-	url('fonts/Appa-Sariicons.ttf') format('truetype'),
-	url('fonts/Appa-Sariicons.svg') format('svg');
+	font-family: 'Appa-Sariicon';
+	src: url('fonts/Appa-Sariicon.eot');
+	src: url('fonts/Appa-Sariicon.eot?#iefix') format('eot'),
+	url('fonts/Appa-Sariicon.woff') format('woff'),
+	url('fonts/Appa-Sariicon.woff2') format('woff2'),
+	url('fonts/Appa-Sariicon.ttf') format('truetype'),
+	url('fonts/Appa-Sariicon.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'Appa-Sariicons';
-    src: url('fonts/Appa-Sariicons.svg') format('svg');
+    font-family: 'Appa-Sariicon';
+    src: url('fonts/Appa-Sariicon.svg') format('svg');
   }
 }
 
@@ -37,7 +38,7 @@ i.sar {
   	font-size: inherit;
   	text-rendering: auto;
   	display: inline-block;
-  	font: normal normal normal 14px/1 Appa-Sariicons;
+  	font: normal normal normal 14px/1 Appa-Sariicon;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

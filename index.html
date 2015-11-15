@@ -2,9 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Appa Sariicons | Sariina.com</title>
-	<link rel="stylesheet" href="appa-sariicons.css">
-	<meta name="viewport" content="width=device-width">
+	<title>Appa Sariicon | Sariina.com</title>
+	<link rel="stylesheet" href="appa-sariicon.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="http://sariina.com/asset/images/favicon.ico" type="image/x-icon">
 </head>
 
 <style type="text/css">
@@ -25,15 +26,15 @@
 	}
 
 	*::selection {
-		background-color: rgba(0,0,0,.5);
+		background-color: rgba(0,0,0,.3);
 	}
 
 	body {
 		margin: 0;
 		padding: 0;
-		color: #FFF;
-		background: #00979D;
-		border-top: 8px solid rgba(0,0,0,.5);
+		color: #00979D;
+		background: #FFF;
+		border-top: 8px solid #00979D;
 	}
 
 	.wrap {
@@ -46,6 +47,7 @@
 	}
 
 	.desc {
+		color: #666;
 		text-align: right;
 		margin: 40px 0 20px;
 		font-family: Tahoma, 'Ubuntu';
@@ -58,18 +60,27 @@
 		line-height: 20px;
 	}
 
+	.desc h5 {
+		color: #00979D;
+	}
+
+	.desc h5 i {
+		font-size: 16px;
+		margin-left: 5px;
+	}
+
 	.desc a {
-		color: rgba(255,255,255,.8);
+		color: #00979D;
 	}
 
 	.desc .btn {
-		color: #00979D;
+		color: #FFF;
 		padding: 10px 20px;
 		border-radius: 4px;
 		margin-bottom: 10px;
 		text-decoration: none;
 		display: inline-block;
-		background-color: #FFF;
+		background-color: #00979D;
 	}
 
 	.desc .btn i {
@@ -78,7 +89,7 @@
 	}
 
 	.desc .btn:hover {
-		background-color: rgba(255,255,255,.8);
+		background-color: #00797E;
 	}
 
 
@@ -90,38 +101,56 @@
 
 	.glyph div {
 	    width: 130px;
-	    margin: 20px 0 0;
+	    margin: 20px 0 20px;
+	    vertical-align: top;
 		display: inline-block;
 	}
 
 	.glyph div i {
-		display: block;
+		vertical-align: top;
+		display: inline-block;
 		font-size: 32px;
-		text-shadow: 0 2px 0 rgba(0,0,0,.4);
+		/*text-shadow: 0 2px 0 rgba(0,0,0,.4);*/
 	}
 
 	.glyph div input {
-		width: 100%;
+		width: 90%;
 		border: none;
 		padding: 5px 0;
-		font-size: 10px;
+		font-size: 12px;
 		text-align: center;
-		border-radius: 4px;
 		margin: 5px 0 10px 0;
 		font-family: monospace;
-		color: rgba(255,255,255,.7);
+		color: rgba(0,0,0,.7);
 		background-color: transparent;
 		-webkit-appearance: none;
+		border-bottom: 1px dotted;
+	}
+
+	.glyph div input:hover {
+		background-color: rgba(0,0,0,.05);
 	}
 
 	.glyph div input:focus {
-		color: rgba(255,255,255,1);
-		background-color: rgba(0,0,0,.2);
+		color: #000;
+		outline: 0;
+		background-color: rgba(0,0,0,.1);
+	}
+
+	.glyph div span {
+		width: 85%;
+		height: 30px;
+		display: block;
+		font-size: 13px;
+		margin: 5px auto 0;
+		font-family: Tahoma;
+		/*white-space: break-word;*/
 	}
 
 	nav a {
+		color: #777;
 		font-size: 13px;
-		color: rgba(255,255,255,.8);
+		margin: 0 3px 0;
 	}
 	
 </style>
@@ -129,904 +158,1056 @@
 <body>
 	<div class="wrap">
 		<div class="desc">
-			<h5>آپـا سـاریـکـانـز (وب‌فونت آیکون‌های پیام اس‌ام‌اس)</h5>
+			<h5><i class="sar sar-heart"></i>آپـا سـاریـکـان [Appa Sariicon]</h5>
 			<p>
 				برای ساخت وب‌اپلیکیشن <a href="http://payamsms.com">پیام‌اس‌ام‌اس</a>، نیاز به استفاده از نشانه‌های بصری بود و به طبع، به دلیل پیچیدگی و اختصاصی بودن مفاهیم چنین نرم‌افزاری، یافتن نشانه‌های مناسب از بین ابزارهای آماده سخت و زمان‌بر بود.<br />
 				تصمیم گرفتیم تا وب‌فونت آیکون‌هایی اختصاصی برای این محصول طراحی و تولید کنیم.<br />
-				این مجموعه شامل ۱۴۷ آیکون اختصاصی طراحی شده توسط <a href="http://sariina.com" title="لینک به سایت سارینا">سارینا</a> برای استفاده در وب است.<br /><br />
-				<a class="btn" href=""><i class="sar sar-insert"></i>دانلود وب‌فونت‌آیکون‌های آپـا</a>
-				<a class="btn" href=""><i class="sar sar-text"></i>بلاگ سارینا</a>
+				این مجموعه شامل ۱۴۷ آیکون اختصاصی طراحی شده توسط <a href="http://sariina.com" title="لینک به سایت سارینا">سارینا</a> برای استفاده در وب است.<br />
+				
+				<br />
+				<span style="direction: ltr; text-align: left; display: block;">Appa Sariicons is a collection of 147 webfont icons that are carefully designed by Sariina to use in complex Web Applications UIs.</span>
+				<br />
+
+				<a class="btn" href="https://github.com/sariina/appa-sariicon/archive/master.zip"><i class="sar sar-insert"></i>دانلود آپـا ساریکان [Download]</a>
+				<a class="btn" href="https://github.com/sariina/appa-sariicon">آپا ساریکان در گیت‌هاب [Github]</a>
 			</p>
 		</div>
 
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env"></i>
+				<span>envelope</span>
 				<input type="text" value="sar-env"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-rpt"></i>
+				<span>envelope report</span>
 				<input type="text" value="sar-env-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-permission"></i>
+				<span>envelope permissions</span>
 				<input type="text" value="sar-env-permission"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-s-r"></i>
+				<span>envelope sent &amp; recieve</span>
 				<input type="text" value="sar-env-s-r"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-read"></i>
+				<span>envelope read</span>
 				<input type="text" value="sar-env-read"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-read-s"></i>
+				<span>envelope read &amp; sent</span>
 				<input type="text" value="sar-env-read-s"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-sent"></i>
+				<span>envelope sent</span>
 				<input type="text" value="sar-env-sent"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-recieve"></i>
+				<span>envelope recieved</span>
 				<input type="text" value="sar-env-recieve"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-delivered"></i>
+				<span>envelope delivered</span>
 				<input type="text" value="sar-env-delivered"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-failed"></i>
+				<span>envelope failed</span>
 				<input type="text" value="sar-env-failed"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-unknown"></i>
+				<span>envelope unknown status</span>
 				<input type="text" value="sar-env-unknown"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-retry"></i>
+				<span>envelope retry</span>
 				<input type="text" value="sar-env-retry"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-open"></i>
+				<span>envelope open</span>
 				<input type="text" value="sar-env-open"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-env-dl"></i>
+				<span>envelope download</span>
 				<input type="text" value="sar-env-dl"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-inbox"></i>
+				<span>inbox</span>
 				<input type="text" value="sar-inbox"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-inbox-rpt"></i>
+				<span>inbox report</span>
 				<input type="text" value="sar-inbox-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-outbox"></i>
+				<span>outbox</span>
 				<input type="text" value="sar-outbox"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-outbox-rpt"></i>
+				<span>outbox report</span>
 				<input type="text" value="sar-outbox-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-nonebox"></i>
+				<span>unknown box</span>
 				<input type="text" value="sar-nonebox"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-user"></i>
+				<span>user</span>
 				<input type="text" value="sar-user"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-user-rpt"></i>
+				<span>user report</span>
 				<input type="text" value="sar-user-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-user-add"></i>
+				<span>add user</span>
 				<input type="text" value="sar-user-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-users"></i>
+				<span>users</span>
 				<input type="text" value="sar-users"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-users-assign"></i>
+				<span>assign users</span>
 				<input type="text" value="sar-users-assign"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-users-add"></i>
+				<span>add users</span>
 				<input type="text" value="sar-users-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-admin"></i>
+				<span>admin</span>
 				<input type="text" value="sar-admin"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-admin-rpt"></i>
+				<span>admin report</span>
 				<input type="text" value="sar-admin-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-admin-add"></i>
+				<span>add admin</span>
 				<input type="text" value="sar-admin-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-admins"></i>
+				<span>admins</span>
 				<input type="text" value="sar-admins"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-admins-add"></i>
+				<span>add admins</span>
 				<input type="text" value="sar-admins-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-permission"></i>
+				<span>user permission</span>
 				<input type="text" value="sar-permission"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-assign"></i>
+				<span>user assign</span>
 				<input type="text" value="sar-assign"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-announce"></i>
+				<span>announcement</span>
 				<input type="text" value="sar-announce"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-announce-rpt"></i>
+				<span>announcement report</span>
 				<input type="text" value="sar-announce-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-announce-add"></i>
+				<span>add announcement</span>
 				<input type="text" value="sar-announce-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-announce-active"></i>
+				<span>active announcements</span>
 				<input type="text" value="sar-announce-active"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-letter"></i>
+				<span>letter</span>
 				<input type="text" value="sar-letter"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-letter-rpt"></i>
+				<span>letter report</span>
 				<input type="text" value="sar-letter-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-letter-add"></i>
+				<span>add letter</span>
 				<input type="text" value="sar-letter-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-letter-sticky"></i>
+				<span>sticky letter</span>
 				<input type="text" value="sar-letter-sticky"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-template"></i>
+				<span>template</span>
 				<input type="text" value="sar-template"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-template-add"></i>
+				<span>add template</span>
 				<input type="text" value="sar-template-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-shortnumber"></i>
+				<span>shortnumber</span>
 				<input type="text" value="sar-shortnumber"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-shortnumber-rpt"></i>
+				<span>shortnumber report</span>
 				<input type="text" value="sar-shortnumber-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-shortnumber-add"></i>
+				<span>add shortnumber</span>
 				<input type="text" value="sar-shortnumber-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-shortnumber-assign"></i>
+				<span>assign shortnumber</span>
 				<input type="text" value="sar-shortnumber-assign"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-text"></i>
+				<span>text</span>
 				<input type="text" value="sar-text"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-text-rpt"></i>
+				<span>text report</span>
 				<input type="text" value="sar-text-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-text-pro"></i>
+				<span>pro text</span>
 				<input type="text" value="sar-text-pro"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-text-pro-rpt"></i>
+				<span>pro text report</span>
 				<input type="text" value="sar-text-pro-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-edit"></i>
+				<span>edit</span>
 				<input type="text" value="sar-edit"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-options"></i>
+				<span>options</span>
 				<input type="text" value="sar-options"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-yes"></i>
+				<span>yes square</span>
 				<input type="text" value="sar-yes"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-maybe"></i>
+				<span>maybe square</span>
 				<input type="text" value="sar-maybe"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-blocked"></i>
+				<span>blocked square</span>
 				<input type="text" value="sar-blocked"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-no"></i>
+				<span>no square</span>
 				<input type="text" value="sar-no"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-open"></i>
+				<span>open/share</span>
 				<input type="text" value="sar-open"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-insert"></i>
+				<span>insert/download</span>
 				<input type="text" value="sar-insert"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-export"></i>
+				<span>export</span>
 				<input type="text" value="sar-export"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-import"></i>
+				<span>import</span>
 				<input type="text" value="sar-import"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-export-soft"></i>
+				<span>export soft edges</span>
 				<input type="text" value="sar-export-soft"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-import-soft"></i>
+				<span>import soft edges</span>
 				<input type="text" value="sar-import-soft"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-merge"></i>
+				<span>merge</span>
 				<input type="text" value="sar-merge"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-refresh"></i>
+				<span>refresh</span>
 				<input type="text" value="sar-refresh"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-money"></i>
+				<span>money</span>
 				<input type="text" value="sar-money"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-money-rpt"></i>
+				<span>money report</span>
 				<input type="text" value="sar-money-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-money-black"></i>
+				<span>money w/bg</span>
 				<input type="text" value="sar-money-black"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-money-black-rpt"></i>
+				<span>money w/bg report</span>
 				<input type="text" value="sar-money-black-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-money-change"></i>
+				<span>money change</span>
 				<input type="text" value="sar-money-change"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-transaction"></i>
+				<span>transaction</span>
 				<input type="text" value="sar-transaction"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-settings"></i>
+				<span>settings</span>
 				<input type="text" value="sar-settings"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-settings-rpt"></i>
+				<span>settings report</span>
 				<input type="text" value="sar-settings-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-value"></i>
+				<span>value/attribute</span>
 				<input type="text" value="sar-value"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-sign"></i>
+				<span>signature</span>
 				<input type="text" value="sar-sign"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-ltr"></i>
+				<span>ltr</span>
 				<input type="text" value="sar-ltr"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-rtl"></i>
+				<span>rtl</span>
 				<input type="text" value="sar-rtl"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-close"></i>
+				<span>close/exit</span>
 				<input type="text" value="sar-close"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-error"></i>
+				<span>error/alert</span>
 				<input type="text" value="sar-error"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-logout"></i>
+				<span>logout/power</span>
 				<input type="text" value="sar-logout"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-logout-as"></i>
+				<span>logout as</span>
 				<input type="text" value="sar-logout-as"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-dashboard"></i>
+				<span>dashboard</span>
 				<input type="text" value="sar-dashboard"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-search"></i>
+				<span>search</span>
 				<input type="text" value="sar-search"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-search-rpt"></i>
+				<span>search report</span>
 				<input type="text" value="sar-search-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-trash"></i>
+				<span>trash/bin/recycle</span>
 				<input type="text" value="sar-trash"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-trash-rpt"></i>
+				<span>trash/bin/recycle report</span>
 				<input type="text" value="sar-trash-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-map"></i>
+				<span>map</span>
 				<input type="text" value="sar-map"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-calendar"></i>
+				<span>calendar</span>
 				<input type="text" value="sar-calendar"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-calendar-rpt"></i>
+				<span>calendar report</span>
 				<input type="text" value="sar-calendar-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-calendar-add"></i>
+				<span>add calendar</span>
 				<input type="text" value="sar-calendar-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-plans"></i>
+				<span>plans/bars/charts</span>
 				<input type="text" value="sar-plans"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-plans-rpt"></i>
+				<span>plans/bars/charts report</span>
 				<input type="text" value="sar-plans-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-plans-add"></i>
+				<span>add plans/bars/charts</span>
 				<input type="text" value="sar-plans-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-stat"></i>
+				<span>stat/bars/charts</span>
 				<input type="text" value="sar-stat"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-report"></i>
+				<span>report</span>
 				<input type="text" value="sar-report"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-stairs"></i>
+				<span>stairs/steps</span>
 				<input type="text" value="sar-stairs"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-contrast"></i>
+				<span>contrast</span>
 				<input type="text" value="sar-contrast"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-invader"></i>
+				<span>invader</span>
 				<input type="text" value="sar-invader"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-coffee"></i>
+				<span>coffee/cup</span>
 				<input type="text" value="sar-coffee"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-heart"></i>
+				<span>heart/like</span>
 				<input type="text" value="sar-heart"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-phone"></i>
+				<span>phone/mobile/cell</span>
 				<input type="text" value="sar-phone"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-phones"></i>
+				<span>phones</span>
 				<input type="text" value="sar-phones"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-clock"></i>
+				<span>clock/watch</span>
 				<input type="text" value="sar-clock"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-clock-black"></i>
+				<span>clock w/bg</span>
 				<input type="text" value="sar-clock-black"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bulk"></i>
+				<span>bulk/flower/star</span>
 				<input type="text" value="sar-bulk"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bulk-rpt"></i>
+				<span>bulk report</span>
 				<input type="text" value="sar-bulk-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bulk-pin"></i>
+				<span>pin bulk</span>
 				<input type="text" value="sar-bulk-pin"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bulk-job"></i>
+				<span>bulk jobs</span>
 				<input type="text" value="sar-bulk-job"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bulk-post"></i>
+				<span>bulk post</span>
 				<input type="text" value="sar-bulk-post"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-contacts"></i>
+				<span>contacts/phonebook</span>
 				<input type="text" value="sar-contacts"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-contacts-add"></i>
+				<span>add contacts</span>
 				<input type="text" value="sar-contacts-add"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-contacts-rpt"></i>
+				<span>contacts report</span>
 				<input type="text" value="sar-contacts-rpt"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-contacts-dl"></i>
+				<span>download contacts</span>
 				<input type="text" value="sar-contacts-dl"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-filter"></i>
+				<span>filter</span>
 				<input type="text" value="sar-filter"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-menu"></i>
+				<span>menu/burger</span>
 				<input type="text" value="sar-menu"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-pin"></i>
+				<span>pin</span>
 				<input type="text" value="sar-pin"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-stop"></i>
+				<span>stop</span>
 				<input type="text" value="sar-stop"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-pause"></i>
+				<span>pause</span>
 				<input type="text" value="sar-pause"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-play"></i>
+				<span>play</span>
 				<input type="text" value="sar-play"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-back"></i>
+				<span>back</span>
 				<input type="text" value="sar-back"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-right"></i>
+				<span>right</span>
 				<input type="text" value="sar-right"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-left"></i>
+				<span>left</span>
 				<input type="text" value="sar-left"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-bottom"></i>
+				<span>bottom</span>
 				<input type="text" value="sar-bottom"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-top"></i>
+				<span>top</span>
 				<input type="text" value="sar-top"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-chev-right"></i>
+				<span>chevron right</span>
 				<input type="text" value="sar-chev-right"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-chev-left"></i>
+				<span>chevron left</span>
 				<input type="text" value="sar-chev-left"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-chev-bottom"></i>
+				<span>chevron bottom</span>
 				<input type="text" value="sar-chev-bottom"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-chev-top"></i>
+				<span>chevron top</span>
 				<input type="text" value="sar-chev-top"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-tri-right"></i>
+				<span>triangle right</span>
 				<input type="text" value="sar-tri-right"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-tri-left"></i>
+				<span>triangle left</span>
 				<input type="text" value="sar-tri-left"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-tri-bottom"></i>
+				<span>triangle bottom</span>
 				<input type="text" value="sar-tri-bottom"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-tri-top"></i>
+				<span>triangle top</span>
 				<input type="text" value="sar-tri-top"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-next"></i>
+				<span>next</span>
 				<input type="text" value="sar-next"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-prev"></i>
+				<span>prev</span>
 				<input type="text" value="sar-prev"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-deny"></i>
+				<span>deny/cross</span>
 				<input type="text" value="sar-deny"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-plus"></i>
+				<span>plus/add</span>
 				<input type="text" value="sar-plus"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-minus"></i>
+				<span>minus/dash</span>
 				<input type="text" value="sar-minus"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-deny-black"></i>
+				<span>deny w/bg</span>
 				<input type="text" value="sar-deny-black"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-ok"></i>
+				<span>ok/tik</span>
 				<input type="text" value="sar-ok"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-confirm"></i>
+				<span>confirm</span>
 				<input type="text" value="sar-confirm"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-yes-no"></i>
+				<span>yes &amp; no</span>
 				<input type="text" value="sar-yes-no"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-more"></i>
+				<span>more/menu</span>
 				<input type="text" value="sar-more"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-empty"></i>
+				<span>empty checkbox</span>
 				<input type="text" value="sar-check-empty"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-focus"></i>
+				<span>focused checkbox</span>
 				<input type="text" value="sar-check-focus"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-inside"></i>
+				<span>inside of checkbox</span>
 				<input type="text" value="sar-check-inside"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-filled"></i>
+				<span>filled checkbox</span>
 				<input type="text" value="sar-check-filled"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-ok"></i>
+				<span>ok checkbox</span>
 				<input type="text" value="sar-check-ok"></input>
 			</div>			
 		</div>
 		<div class="glyph">
 			<div>
 				<i class="sar sar-check-half"></i>
+				<span>minus checkbox</span>
 				<input type="text" value="sar-check-half"></input>
 			</div>			
 		</div>
 
-		<div style="font-family: tahoma; color: rgba(0,0,0,.4); margin-top: 40px; text-align: center;">
+		<div style="font-family: tahoma; color: #00979D; margin-top: 50px; text-align: center;">
 			<i style="font-size: 64px; margin-bottom: 8px;" class="sar sar-sariina-logo"></i><br />
 			<i style="font-size: 48px; line-height:14px;" class="sar sar-sariina-type"></i><br />
-			<span style="font-size: 14px;">شرکت فناوری اطلاعات ســـاریـنـا</span><br />
-			<span style="font-size: 14px;">مـا کـسـب و کـار آنـلـایـن شـمـا را تـوسـعـه مـی دهـیـم</span>
+			<span style="font-size: 13px;">شرکت فناوری اطلاعات ســـاریـنـا</span><br />
+			<span style="font-size: 13px;">مـا کـسـب و کـار آنـلـایـن شـمـا را تـوسـعـه مـی دهـیـم</span>
 			<nav>
 				<a href="http://blog.sariina.com">وبلاگ سارینا</a>
 				<a href="http://sariina.com">وبسایت سارینا</a>
