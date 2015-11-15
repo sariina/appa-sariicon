@@ -8,7 +8,7 @@
 # Appa Sariicon
 Appa Sariicon is a collection of 147 webfont icons that are carefully designed by [Sariina](http://sariina.com) to use in complex Web Applications UIs.
 
-[**Demo**](http://code.sariina.com/appa-sariicon)
+[**View Demo in Here**](http://code.sariina.com/appa-sariicon)
 
 # License
 - The Appa Sariicon font is licensed under the SIL OFL 1.1:
@@ -29,4 +29,5 @@ There are two kinds of CSS files in this repo:
 use "**i**" tags and add classes with "sar sar-[name]" pattern:
 
 	<i class="sar sar-env"></i>
-	<i class="sar sar-env-open"></i>
+	<i class="sar sar-shortnumber-add"></i>
+	<i class="sar sar-text-pro"></i>
