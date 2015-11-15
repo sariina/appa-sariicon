@@ -1,21 +1,21 @@
 {
-  name: 'appa-sariicons',
-  version: '2.0.0',
-  homepage: 'http://code.sariina.com/appa-sariicon',
-  authors: [
-    'Sariina <hi@sariina.com>'
+  "name": "appa-sariicon",
+  "version": "2.0.0",
+  "homepage": "http://code.sariina.com/appa-sariicon",
+  "authors": [
+    "Sariina <hi@sariina.com>"
   ],
-  description: 'Appa Sariicon is a collection of 147 webfont icons that are carefully designed by Sariina to use in complex Web Applications UIs.',
-  license: ["OFL-1.1", "MIT"],
-  main: [
+  "description": "Appa Sariicon is a collection of 147 webfont icons that are carefully designed by Sariina to use in complex Web Applications UIs.",
+  "license": ["OFL-1.1", "MIT"],
+  "main": [
     "appa-sariicon-embeded.css",
     "appa-sariicon.min.css"
   ],
-  ignore: [
-    '**/.*',
-    'node_modules',
-    'bower_components',
-    'test',
-    'tests'
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ]
 }
