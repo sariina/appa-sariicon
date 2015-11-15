@@ -25,6 +25,7 @@ There are two kinds of CSS files in this repo:
 - appa-sariicon-embeded : Which has Appa Sariicon embedded inside the CSS in base64
 - appa-sariicon.min/appa-sariicon : And the general kind of @font-face with eot,svg,ttf and woff files
 
-use it inside the **i** tag and write "sar sar-[name]", like:
+use "**i**" tags and add classes with "sar sar-[name]" pattern:
 
 	<i class="sar sar-env"></i>
+	<i class="sar sar-env-open"></i>
