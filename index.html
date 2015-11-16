@@ -39,7 +39,6 @@
 
 	.wrap {
 		display: block;
-		direction: rtl;
 		margin: 0 auto 20px;
 		text-align: center;
 	}
@@ -55,7 +54,7 @@
 		display: table;
 		margin: 0 auto;
 		max-width: 860px;
-		text-align: right;
+		text-align: left;
 		color: rgba(255,255,255,.8);
 		font-family: Tahoma, 'Ubuntu';
 	}
@@ -85,22 +84,23 @@
 		margin-bottom: 10px;
 	}
 
-	.info-box h2 {
+	.info-box h1 {
 		color: #FFF;
 		margin-bottom: 8px;
 		text-shadow: 0 3px 0 rgba(0,0,0,.2);
 	}
 
-	.info-box h2 i {
+	.info-box h1 i {
 		font-size: 32px;
 		margin-left: 5px;
 	}
 
-	.info-box h4 {
-		margin-top: 12px;
-		font-weight: normal;
-		color: rgba(255,255,255,1);
-		text-shadow: 0 3px 0 rgba(0,0,0,.2);
+	.info-box h5 {
+		margin-top: 6px;
+		margin-bottom: 12px;
+		/*font-weight: normal;*/
+		/*color: rgba(255,255,255,1);*/
+		/*text-shadow: 0 3px 0 rgba(0,0,0,.2);*/
 	}
 
 	.info-box a {
@@ -119,7 +119,9 @@
 		background-color: rgba(255,255,255,.95);
 		transition: all .2s ease-in-out;
 		-moz-transition: all .2s ease-in-out;
-		-webkit-transition: all .2s ease-in-out;		
+		-webkit-transition: all .2s ease-in-out;
+		vertical-align: top;
+		height: 40px;
 	}
 
 	.info-box .btn i {
@@ -129,7 +131,7 @@
 
 	.info-box .btn svg {
 		fill: #00797E;
-		vertical-align: top;
+		vertical-align: middle;
 	}
 
 	.info-box .btn:hover {
@@ -210,8 +212,38 @@
 		/*white-space: break-word;*/
 	}
 
+	.foot {
+		padding: 30px 20px 40px;
+		background-color: #00979D;
+	}
+
+	.foot-wrap {
+		width: 100%;
+		color: #FFF;
+		margin: auto;
+		display: block;
+		text-align: left;
+		max-width: 860px;
+		font-family: tahoma;
+	}
+	
+	.foot-wrap div {
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.foot-wrap .sar-sariina-logo {
+		font-size: 64px;
+		margin-bottom: 8px;
+	}
+
+	.foot-wrap span {
+		font-size: 13px;
+	}
+
 	nav a {
-		color: #777;
+		color: rgba(255, 255, 255, .7);
 		font-size: 13px;
 		margin: 0 3px 0;
 	}
@@ -235,8 +267,8 @@
 					<i class="sar sar-coffee"></i>
 				</div>
 				<div class="info-box">
-					<h2>آپـا سـاریـکـان [Appa Sariicon]</h2>
-					<h4>- ۱۴۷ آیکون با طراحی اختصاصی برای استفاده در وب</h4>
+					<h1>Appa Sariicon</h1>
+					<h5>147 sharp icons to use in your projects</h5>
 						<div class="btn-set">
 							<a class="btn" href="https://github.com/sariina/appa-sariicon/archive/v2.0.0.zip">Download v.2.0.0<i class="sar sar-insert"></i></a>
 							<a class="btn" href="https://github.com/sariina/appa-sariicon">View on Github
@@ -246,13 +278,10 @@
 							</a>
 						</div>
 					<p>
-						برای ساخت وب‌اپلیکیشن <a href="http://payamsms.com">پیام‌اس‌ام‌اس</a>، نیاز به استفاده از نشانه‌های بصری بود و به طبع، به دلیل پیچیدگی و اختصاصی بودن مفاهیم چنین نرم‌افزاری، یافتن نشانه‌های مناسب از بین ابزارهای آماده سخت و زمان‌بر بود.
+						Appa Sariicon is a collection of 147 web font icons that are carefully designed by <a href="http://sariina.com" title="Sariina website">Sariina</a> to use in complex Web Applications. We designed it while we were developing our <a href="http://payamsms.com">advanced SMS panel</a>. Since our product had many rare concepts, we decided to design our own set of icons.
 					</p>
 					<p>
-						تصمیم گرفتیم تا وب‌فونت آیکون‌هایی اختصاصی برای این محصول طراحی و تولید کنیم.
-					</p>
-					<p>
-						این مجموعه شامل ۱۴۷ آیکون اختصاصی طراحی شده توسط <a href="http://sariina.com" title="لینک به سایت سارینا">سارینا</a> برای استفاده در وب است.<br />
+						The 8-bit retro style is a reference to old cell phones with just B/W screens.
 					</p>
 				</div>
 			</div>
@@ -1289,20 +1318,24 @@
 				</div>			
 			</div>
 		</div>
-
-		<div style="font-family: tahoma; color: #00979D; margin-top: 50px; text-align: center;">
-			<i style="font-size: 64px; margin-bottom: 8px;" class="sar sar-sariina-logo"></i><br />
-			<i style="font-size: 48px; line-height:14px;" class="sar sar-sariina-type"></i><br />
-			<span style="font-size: 13px;">شرکت فناوری اطلاعات ســـاریـنـا</span><br />
-			<span style="font-size: 13px;">مـا کـسـب و کـار آنـلـایـن شـمـا را تـوسـعـه مـی دهـیـم</span>
-			<nav>
-				<a href="http://blog.sariina.com">وبلاگ</a>
-				<a href="http://sariina.com">وبسایت</a>
-				<a href="http://twitter.com/sariinaco">سارینا در توییتر</a>
-			</nav>
-		</div>
 	</div>
 
+	<div class="foot">
+		<div class="foot-wrap">
+			<div>
+				<i class="sar sar-sariina-logo"></i>
+			</div>
+			<div>
+				<span><strong>Sariina IT</strong></span><br />
+				<span>Online Business Solutions</span>
+				<nav>
+					<a href="http://blog.sariina.com">Blog</a>
+					<a href="http://sariina.com">Website</a>
+					<a href="http://twitter.com/sariinaco">Sariina on Twitter</a>
+				</nav>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
